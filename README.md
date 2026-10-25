@@ -1,24 +1,42 @@
-Transportation Management System (TMS)
+🚚 Transportation Management System (TMS)
+
+Backend Transportation Management System built using Node.js, Express.js, PostgreSQL, MongoDB, Docker, and GitHub Actions.
+
+
 
 Features
 
-Drivers CRUD API
+Drivers Management
 
-Vehicles CRUD API
+Create Driver
 
-Trips CRUD API
+View Drivers
 
-Invoices CRUD API
+Update Driver
 
-PostgreSQL Integration
+Delete Driver
 
-MongoDB Logging
+Vehicle Management
 
-Docker Compose
+Create Vehicle
 
-GitHub Actions CI/CD
+View Vehicles
 
-Tech Stack
+Update Vehicle
+
+Delete Vehicle
+
+Trip Management
+
+Create Trips
+
+Assign Drivers
+
+Assign Vehicles
+
+Track Start and End Times
+
+Technology Stack
 
 Node.js
 
@@ -32,11 +50,67 @@ Docker
 
 GitHub Actions
 
-Run
+Git
+
+Project Structure
+
+src/
+
+├── config/
+
+├── routes/
+
+│   ├── drivers.js
+
+│   ├── vehicles.js
+
+│   └── trips.js
+
+└── index.js
+
+Run Locally
 
 npm install
 
-
-
 npm start
+
+API Endpoints
+
+Drivers
+
+GET /drivers
+
+POST /drivers
+
+PUT /drivers/:id
+
+DELETE /drivers/:id
+
+Vehicles
+
+GET /vehicles
+
+POST /vehicles
+
+PUT /vehicles/:id
+
+DELETE /vehicles/:id
+
+Trips
+
+GET /trips
+
+POST /trips
+
+PUT /trips/:id
+
+DELETE /trips/:id
+
+Author
+
+Chirag
+
+
+
+Entry-Level Backend Developer
 

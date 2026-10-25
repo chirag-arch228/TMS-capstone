@@ -5,7 +5,7 @@ const express = require("express");
 const driversRouter = require("./routes/drivers");
 const vehiclesRouter = require("./routes/vehicles");
 const tripsRouter = require("./routes/trips");
-const invoiceRoutes = require("./routes/invoices");
+
 
 const app = express();
 
@@ -14,7 +14,7 @@ app.use(express.json());
 app.use("/drivers", driversRouter);
 app.use("/vehicles", vehiclesRouter);
 app.use("/trips", tripsRouter);
-app.use("/api/invoices", invoiceRoutes);
+
 
 app.get("/", (req, res) => {
   res.json({
