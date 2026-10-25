@@ -4,55 +4,67 @@ Backend Transportation Management System built using Node.js, Express.js, Postgr
 
 
 
-Features
+✨ Features
 
-Drivers Management
 
-Create Driver
 
-View Drivers
+👨‍✈️ Drivers Management
 
-Update Driver
+➕ Create Driver
 
-Delete Driver
+📋 View Drivers
 
-Vehicle Management
+✏️ Update Driver
 
-Create Vehicle
+🗑️ Delete Driver
 
-View Vehicles
 
-Update Vehicle
 
-Delete Vehicle
+🚛 Vehicle Management
 
-Trip Management
+➕ Create Vehicle
 
-Create Trips
+📋 View Vehicles
 
-Assign Drivers
+✏️ Update Vehicle
 
-Assign Vehicles
+🗑️ Delete Vehicle
 
-Track Start and End Times
 
-Technology Stack
 
-Node.js
+🛣️ Trip Management
 
-Express.js
+➕ Create Trips
 
-PostgreSQL
+👨‍✈️ Assign Drivers
 
-MongoDB
+🚛 Assign Vehicles
 
-Docker
+⏱️ Track Start Time
 
-GitHub Actions
+🏁 Track End Time
 
-Git
 
-Project Structure
+
+🛠️ Technology Stack
+
+🟢 Node.js
+
+⚡ Express.js
+
+🐘 PostgreSQL
+
+🍃 MongoDB
+
+🐳 Docker
+
+🔄 GitHub Actions
+
+🌿 Git
+
+
+
+📁 Project Structure
 
 src/
 
@@ -68,49 +80,63 @@ src/
 
 └── index.js
 
-Run Locally
+
+
+🚀 Run Locally
 
 npm install
 
 npm start
 
-API Endpoints
 
-Drivers
 
-GET /drivers
+🔗 API Endpoints
 
-POST /drivers
 
-PUT /drivers/:id
+
+👨‍✈️ Drivers
+
+GET    /drivers
+
+POST   /drivers
+
+PUT    /drivers/:id
 
 DELETE /drivers/:id
 
-Vehicles
 
-GET /vehicles
 
-POST /vehicles
+🚛 Vehicles
 
-PUT /vehicles/:id
+GET    /vehicles
+
+POST   /vehicles
+
+PUT    /vehicles/:id
 
 DELETE /vehicles/:id
 
-Trips
 
-GET /trips
 
-POST /trips
+🛣️ Trips
 
-PUT /trips/:id
+GET    /trips
+
+POST   /trips
+
+PUT    /trips/:id
 
 DELETE /trips/:id
 
-Author
-
-Chirag
 
 
+👨‍💻 Author
 
-Entry-Level Backend Developer
+
+
+Chirag.N
+
+
+
+💻 Backend Development
 
