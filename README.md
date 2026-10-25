@@ -1,192 +1,250 @@
-🚚 Transportation Management System (TMS)
+\# 🚚 Transportation Management System (TMS)
 
-Backend Transportation Management System built using Node.js, Express.js, PostgreSQL, MongoDB, Docker, and GitHub Actions.
 
 
+A backend Transportation Management System built with Node.js, Express.js, PostgreSQL, MongoDB, Docker, and GitHub Actions.
 
-✨ Features
 
 
+This project demonstrates REST API development, database integration, containerization, and CI/CD practices commonly used in modern backend and cloud environments.
 
-👨‍✈️ Drivers Management
 
-➕ Create Driver
 
-📋 View Drivers
+\---
 
-✏️ Update Driver
 
-🗑️ Delete Driver
 
+\## ✨ Features
 
 
-🚛 Vehicle Management
 
-➕ Create Vehicle
+\### 👨‍✈️ Driver Management
 
-📋 View Vehicles
+\- Create Drivers
 
-✏️ Update Vehicle
+\- View Drivers
 
-🗑️ Delete Vehicle
+\- Update Driver Information
 
+\- Delete Drivers
 
 
-🛣️ Trip Management
 
-➕ Create Trips
+\### 🚛 Vehicle Management
 
-👨‍✈️ Assign Drivers
+\- Create Vehicles
 
-🚛 Assign Vehicles
+\- View Vehicles
 
-⏱️ Track Start Time
+\- Update Vehicle Information
 
-🏁 Track End Time
+\- Delete Vehicles
 
 
 
-🛠️ Technology Stack
+\### 🛣️ Trip Management
 
-🟢 Node.js
+\- Create Trips
 
-⚡ Express.js
+\- Assign Drivers to Trips
 
-🐘 PostgreSQL
+\- Assign Vehicles to Trips
 
-🍃 MongoDB
+\- Track Trip Start Time
 
-🐳 Docker
+\- Track Trip End Time
 
-🔄 GitHub Actions
 
-🌿 Git
 
+\### 🗄️ Database Integration
 
+\- PostgreSQL for relational data storage
 
-📁 Project Structure
+\- MongoDB integration for logging and future analytics
 
-src/
 
-├── config/
 
-├── routes/
+\### ⚙️ DevOps Features
 
-│   ├── drivers.js
+\- Docker Compose support
 
-│   ├── vehicles.js
+\- GitHub Actions CI/CD pipeline
 
-│   └── trips.js
+\- Git version control
 
-└── index.js
 
 
+\---
 
-🚀 Run Locally
 
-npm install
 
-npm start
+\## 🛠️ Technology Stack
 
 
 
-🔗 API Endpoints
+| Technology | Purpose |
 
+|-----------|-----------|
 
+| Node.js | Backend Runtime |
 
-👨‍✈️ Drivers
+| Express.js | REST API Framework |
 
-GET    /drivers
+| PostgreSQL | Relational Database |
 
-POST   /drivers
+| MongoDB | Logging \& Analytics |
 
-PUT    /drivers/:id
+| Docker | Containerization |
 
-DELETE /drivers/:id
+| GitHub Actions | CI/CD Automation |
 
+| Git | Version Control |
 
 
-🚛 Vehicles
 
-GET    /vehicles
+\---
 
-POST   /vehicles
 
-PUT    /vehicles/:id
 
-DELETE /vehicles/:id
+\## 📁 Project Structure
 
 
 
-🛣️ Trips
+```text
 
-GET    /trips
+tms-capstone
 
-POST   /trips
+│
 
-PUT    /trips/:id
+├── src
 
-DELETE /trips/:id
+│   ├── config
 
+│   ├── routes
 
+│   │   ├── drivers.js
 
-⚡ Quick Start
+│   │   ├── vehicles.js
 
+│   │   └── trips.js
 
+│   └── index.js
 
-1️⃣ Clone Repository
+│
+
+├── .github
+
+│   └── workflows
+
+│
+
+├── package.json
+
+├── README.md
+
+└── .gitignore
+
+
+
+\## ⚡ Quick Start
+
+
+
+Get the project running locally in a few simple steps.
+
+
+
+\### Clone the Repository
+
+
+
+```bash
 
 git clone https://github.com/chirag-arch228/tms-capstone.git
 
+```
 
 
-2️⃣ Navigate to Project
+
+\### Navigate to the Project Directory
+
+
+
+```bash
 
 cd tms-capstone
 
+```
 
 
-3️⃣ Install Dependencies
+
+\### Install Dependencies
+
+
+
+```bash
 
 npm install
 
+```
 
 
-4️⃣ Start Application
+
+\### Start the Application
 
 
+
+```bash
 
 npm start
 
+```
 
 
-Expected output:
+
+\### Expected Output
 
 
+
+```text
 
 INDEX FILE LOADED
 
 TMS API running on port 3000
 
-
-
-🧪 Test URLs
-
-After starting the application, test the following URLs in your browser or Postman:
+```
 
 
 
-🏠 Home
+\---
 
 
+
+\## 🧪 Test URLs
+
+
+
+After starting the application, open the following URLs in your browser or Postman.
+
+
+
+\### 🏠 Home
+
+
+
+```text
 
 http://localhost:3000
 
+```
 
 
-Expected:
+
+\*\*Expected Response\*\*
 
 
+
+```json
 
 {
 
@@ -196,39 +254,65 @@ Expected:
 
 }
 
+```
 
 
-👨‍✈️ Drivers
+
+\### 👨‍✈️ Drivers
 
 
+
+```text
 
 http://localhost:3000/drivers
 
+```
 
 
-🚛 Vehicles
+
+\### 🚛 Vehicles
 
 
+
+```text
 
 http://localhost:3000/vehicles
 
+```
 
 
-🛣️ Trips
+
+\### 🛣️ Trips
 
 
+
+```text
 
 http://localhost:3000/trips
 
-
-
-👨‍💻 Author
-
-
-
-Chirag.N
+```
 
 
 
-💻 Backend Development
+\---
+
+
+
+\## 👨‍💻 Author
+
+
+
+\*\*Chirag\*\*
+
+&#x20; 
+
+💻 Backend Development 
+
+
+
+\*\*GitHub\*\*  
+
+https://github.com/chirag-arch228
+
+
 
