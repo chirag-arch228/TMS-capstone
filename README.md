@@ -130,6 +130,98 @@ DELETE /trips/:id
 
 
 
+⚡ Quick Start
+
+
+
+1️⃣ Clone Repository
+
+git clone https://github.com/chirag-arch228/tms-capstone.git
+
+
+
+2️⃣ Navigate to Project
+
+cd tms-capstone
+
+
+
+3️⃣ Install Dependencies
+
+npm install
+
+
+
+4️⃣ Start Application
+
+
+
+npm start
+
+
+
+Expected output:
+
+
+
+INDEX FILE LOADED
+
+TMS API running on port 3000
+
+
+
+🧪 Test URLs
+
+After starting the application, test the following URLs in your browser or Postman:
+
+
+
+🏠 Home
+
+
+
+http://localhost:3000
+
+
+
+Expected:
+
+
+
+{
+
+&#x20; "project": "Transportation Management System",
+
+&#x20; "status": "Running"
+
+}
+
+
+
+👨‍✈️ Drivers
+
+
+
+http://localhost:3000/drivers
+
+
+
+🚛 Vehicles
+
+
+
+http://localhost:3000/vehicles
+
+
+
+🛣️ Trips
+
+
+
+http://localhost:3000/trips
+
+
+
 👨‍💻 Author
 
 
